@@ -260,7 +260,7 @@ var Dishes = function (_React$Component) {
 				_this.setState({
 					luckyDish: store.getState().luckyDish
 				});
-			});
+			})();
 		}
 	}, {
 		key: 'handleBtnClick',

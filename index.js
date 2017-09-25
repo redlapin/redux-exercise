@@ -28,7 +28,7 @@ class Dishes extends React.Component{
 			_this.setState({
 				luckyDish: store.getState().luckyDish
 			})
-		})
+		})();
 	}
 	handleBtnClick(){
 		store.dispatch(selectDishAction());
