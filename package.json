@@ -1,0 +1,25 @@
+{
+  "name": "mooncake",
+  "version": "1.0.0",
+  "description": "personal project",
+  "main": "index.js",
+  "repository": {},
+  "author": "feifei",
+  "license": "MIT",
+  "scripts": {
+    "build": "browserify index.js -t babelify --outfile  bundle.js"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0"
+  }
+}
